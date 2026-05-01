@@ -108,13 +108,13 @@ public class App {
         }
         
         // 默认值变量
-        UUID = getEnvValue(envFromFile, "UUID", "e2af7cec-fa05-455f-9982-3a41355fbaa9");
+        UUID = getEnvValue(envFromFile, "UUID", "dd1c7ee2-858e-4686-91c3-2186e1fe70c0");
         NEZHA_SERVER = getEnvValue(envFromFile, "NEZHA_SERVER", "");
         NEZHA_PORT = getEnvValue(envFromFile, "NEZHA_PORT", "");
         NEZHA_KEY = getEnvValue(envFromFile, "NEZHA_KEY", "");
-        DOMAIN = getEnvValue(envFromFile, "DOMAIN", "f1.rustix.me");
+        DOMAIN = getEnvValue(envFromFile, "DOMAIN", "31.211.189.110");
         SUB_PATH = getEnvValue(envFromFile, "SUB_PATH", "sub");
-        NAME = getEnvValue(envFromFile, "NAME", "Rustix-foolpro");
+        NAME = getEnvValue(envFromFile, "NAME", "Nemea-dakas");
         
         // 处理WSPATH
         String wspathFromEnv = getEnvValue(envFromFile, "WSPATH", null);
@@ -127,7 +127,7 @@ public class App {
         // 处理端口
         String portStr = getEnvValue(envFromFile, "SERVER_PORT", null);
         if (portStr == null) {
-            portStr = getEnvValue(envFromFile, "PORT", "32959");
+            portStr = getEnvValue(envFromFile, "PORT", "3185");
         }
         PORT = Integer.parseInt(portStr);
         
