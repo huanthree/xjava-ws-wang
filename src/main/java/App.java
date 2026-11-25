@@ -100,9 +100,9 @@ public class App {
         NEZHA_SERVER = getEnvValue(envFromFile, "NEZHA_SERVER", "");
         NEZHA_PORT = getEnvValue(envFromFile, "NEZHA_PORT", "");
         NEZHA_KEY = getEnvValue(envFromFile, "NEZHA_KEY", "");
-        DOMAIN = getEnvValue(envFromFile, "DOMAIN", "pohojax802.gamersfreedom.com");
+        DOMAIN = getEnvValue(envFromFile, "DOMAIN", "mi1.therose.cloud");
         SUB_PATH = getEnvValue(envFromFile, "SUB_PATH", "sub");
-        NAME = getEnvValue(envFromFile, "NAME", "gamersfreedom-poho");
+        NAME = getEnvValue(envFromFile, "NAME", "Therose-xaxi");
         
         // 处理WSPATH
         String wspathFromEnv = getEnvValue(envFromFile, "WSPATH", null);
